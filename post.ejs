@@ -1,0 +1,9 @@
+<%- include("header") -%>
+<h1 style="font-family: Montserrat;margin-top: 50px;"><%= he %></h1>
+<p style="font-family: Montserrat;margin-top: 28px;"><%= po %></p>
+<form action="/displayFile" method="post">
+    <h2 style="margin-top: 50px;font-family: Montserrat;">File Uploaded</h2>
+    <div class="d-grid gap-2"><button type="submit" name="fileopen" class="btn btn-success" style="margin-top: 50px;font-family: Montserrat;" value=<%= he %>>Click here to view the file</button></div>
+</form>
+</div>
+</body>
